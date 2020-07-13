@@ -1,0 +1,10 @@
+body, main {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+}
+.blog {
+  height: 80vh;
+  width: 80vw;
+  background-color: grey;
+}
