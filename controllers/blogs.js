@@ -1,6 +1,7 @@
 const Blog = require('../models/blog')
 const db = require('../db/connection')
 
+
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 const getBlogs = async (req, res) => {

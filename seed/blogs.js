@@ -41,8 +41,7 @@ const main = async () => {
   console.log("Created blogs!")
 }
 const run = async () => {
-  await main(
-    db.close()
-  )
+  await main()
+  db.close()
 }
 run()
