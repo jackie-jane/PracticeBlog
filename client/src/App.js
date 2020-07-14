@@ -1,13 +1,12 @@
 import React from 'react';
-import Blog from './components/blogdummy'
+import Edit from './screens/Edit/edit'
 import './App.css';
 
 function App() {
   return (
     <main>
-      <Blog />
+      <Edit />
     </main>
   );
 }
-
 export default App;
