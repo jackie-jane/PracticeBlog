@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Link, Switch } from "react-router-dom";
-import Blog from "./components/blogdummy";
+import Edit from './screens/Edit/edit'
 import Main from "./screens/main";
 
 import "./App.css";
@@ -14,5 +14,4 @@ function App() {
     </main>
   );
 }
-
 export default App;

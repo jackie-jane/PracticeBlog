@@ -1,0 +1,9 @@
+.content {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  background-color: white;
+  height: 50%;
+  width: 80%;
+  align-self: center;
+}
