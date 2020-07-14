@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
 import Blog from '../../components/Edit/Blog/blog'
-import axios from 'axios'
 
 class Edit extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+    this.state = {
+      title: '',
+      author: '',
+      img: '',
+      content: ''
+    }
+    updateMode: false
+    updated: false
   }
   async componentDidMount() {
     try {
-      const res = await axios('https://practiceblogorange.herokuapp.com/api/blogs');
+      let { id } = this.props.match.params
+      const res = await ;
       console.log(res)
     } catch (error) {
       console.log(`this is you ${error}`)
