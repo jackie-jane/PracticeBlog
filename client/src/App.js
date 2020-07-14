@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
+import { Route, Link, Switch } from "react-router-dom";
 import Edit from './screens/Edit/edit'
-import './App.css';
+import Main from "./screens/main";
+
+import "./App.css";
 
 function App() {
   return (
     <main>
-      <Edit />
+      <Switch>
+        <Route path="/" component={Main}></Route>
+      </Switch>
     </main>
   );
 }
